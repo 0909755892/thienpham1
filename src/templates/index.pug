@@ -1,0 +1,133 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home_slider
+		//-///////////////////////
+		//- phần đầu trang slider //
+		.owl-carousel.owl-theme
+			.item
+				img(src="./img/home_slider_1.jpg", alt="").suahinh
+				.nkow
+					.container
+						.row
+							.col
+								h1 Chúng tôi là Fullstack Việt Nam
+								p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eos nostrum voluptatum libero praesentium. Consectetur enim et, obcaecati praesentium ad neque ex at eius ea repellendus aperiam dicta pariatur aspernatur.
+			.item
+				img(src="./img/home_slider_1.jpg", alt="").suahinh
+				.nkow
+					.container
+						.row
+							.col
+								h1 Chúng tôi là Fullstack Việt Nam
+								p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet eos nostrum voluptatum libero praesentium. Consectetur enim et, obcaecati praesentium ad neque ex at eius ea repellendus aperiam dicta pariatur aspernatur.
+		//-///////////////////////
+		//- phần đầu trang slider//
+	section.home_new
+		.container
+			.row
+				.col.chinhchu
+					h2 FullStack 
+						span chuyên nghiệp
+				
+			.row
+				.col-md-4.item
+					a(href="#")
+						figure
+							.blockimg
+								i.fa.fa-eye
+								img(src="./img/hom_slider_1.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 22/12/2201
+								p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nihil natus cum, asperiores error inventore ipsa mollitia laudantium rem architecto a voluptatem facilis vitae accusamus praesentium recusandae quae qui sint.
+				.col-md-4.item
+					a(href="#")
+						figure
+							.blockimg
+								i.fa.fa-eye
+								img(src="./img/hom_slider_2.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 22/12/2201
+								p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nihil natus cum, asperiores error inventore ipsa mollitia laudantium rem architecto a voluptatem facilis vitae accusamus praesentium recusandae quae qui sint.
+
+				.col-md-4.item
+					a(href="#")
+						figure
+							.blockimg
+								i.fa.fa-eye
+								img(src="./img/hom_slider_3.png", alt="")
+							figcaption
+								h3 Trung tâm đào tạo IT chuyên nghiệp
+								time 22/12/2201
+								p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nihil natus cum, asperiores error inventore ipsa mollitia laudantium rem architecto a voluptatem facilis vitae accusamus praesentium recusandae quae qui sint.
+		//-///////////////////////
+		//- phần LOGO////////////
+	section.home_new_new.mt-5
+		.container
+			.owl-carousel.owl-theme
+				.item
+					img(src="./img/clients_1.png", alt="")
+				.item
+					img(src="./img/clients_2.png", alt="")
+				.item
+					img(src="./img/clients_3.png", alt="")
+				.item
+					img(src="./img/clients_4.png", alt="")
+				.item
+					img(src="./img/clients_5.png", alt="")
+				.item
+					img(src="./img/clients_6.png", alt="")
+		//-///////////////////////
+		//- phần Liên Hệ////////////
+	section.home_setup
+		.container
+			.row
+				.col-md-4.lienhe
+					h4 FULLSTACK VIETNAM
+					phone Mobile: (+84) 969689983
+					br
+					email Email: admin@fullstackvietnam.com
+					br
+					span Địa chỉ: 28 đường số 2 - CITYLAND - Phường 7 - Gò Vấp - HCM
+				.col-md-4.khoahoc
+					h4 LINKS
+					li
+						i.fa.fa-arrow-right
+						a(href="#") khóa học FontEnd Mater
+					li
+						i.fa.fa-arrow-right
+						a(href="#") khóa học FullStack Developer
+					li
+						i.fa.fa-arrow-right
+						a(href="#") khóa học Design chuyên nghiệp
+					li
+						i.fa.fa-arrow-right
+						a(href="#") Lịch khai giảng
+					li
+						i.fa.fa-arrow-right
+						a(href="#") Đăng ký khóa học
+				.col-md-4.khoahoc
+					br
+					li
+						i.fa.fa-arrow-right
+						a(href="#") khóa học FontEnd Mater
+					li
+						i.fa.fa-arrow-right
+						a(href="#") khóa học FullStack Developer
+					li
+						i.fa.fa-arrow-right
+						a(href="#") khóa học Design chuyên nghiệp
+					li
+						i.fa.fa-arrow-right
+						a(href="#") Lịch khai giảng
+					li
+						i.fa.fa-arrow-right
+						a(href="#") Đăng ký khóa học
+							
